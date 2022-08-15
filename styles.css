@@ -1,21 +1,3 @@
-
-.wrapper{
-    max-width: 597px;
-    margin: 0 auto;
-}
-
-.html{
-    box-sizing: border-box;
-}
-*, *::before, *::after{
-    box-sizing: inherit;
-}
-.header__wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-        
-}
 .header__group{
     margin-right: 17px;
 }
@@ -29,47 +11,31 @@
 .header__checkstatus{
     margin-right: 16px;
 }
-
-.header__hr{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 14.57%;
-    bottom: 85.26%;
-    background: #D9FFF5;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 14.57%;
-    bottom: 85.26%;
-    background: #D9FFF5;
-}
-.main__header__text{
-    font-family: TT Lakes;
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: -0.6000000238418579px;
-    text-align: left;
-}
 button {
-    outline: none; /* Для синий ободки */
     border: 0;
     background: transparent;
   }
+.header__hr{
+    position: absolute;
+    left: 1.25%;
+    right: 97.5%;
+    top: 18.76%;
+    bottom: 74.54%;
 
+    background: #41F6D7;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.highlight{
+    position: absolute;
+    left: 1.25%;
+    right: 97.5%;
+    top: 18.76%;
+    bottom: 74.54%;
+    
+    background: #41F6D7;
+    transform: matrix(-1, 0, 0, 1, 0, 0); 
+}
 
 
 
