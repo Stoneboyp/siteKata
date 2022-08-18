@@ -1,82 +1,201 @@
-.header__group{
-    margin-right: 17px;
+
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Regular.eot");
+    src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+      url("fonts/TTLakes-Regular.eot?#iefix")
+        format("embedded-opentype"),
+      url("fonts/TTLakes-Regular.woff") format("woff"),
+      url("fonts/TTLakes-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Bold.eot");
+    src: local("TT Lakes Bold"), local("TTLakes-Bold"),
+      url("../fonts/TTLakes-Bold.eot") format("embedded-opentype"),
+      url("../fonts/TTLakes-Bold.woff") format("woff"),
+      url("../fonts/TTLakes-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: "TT Lakes";
+    src: url("fonts/TTLakes-Medium.eot");
+    src: local("TT Lakes Medium"), local("TTLakes-Medium"),
+      url("../fonts/TTLakes-Medium.eot") format("embedded-opentype"),
+      url("../fonts/TTLakes-Medium.woff") format("woff"),
+      url("../fonts/TTLakes-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+body {
+    font-family:"TT Lakes";
+    color: #1b1c21;
+    background: #f2f2f2;
+    margin: 0;
+}
+.container{
+   height: 100%;
+   width: 100%;
+   min-width:320px;
+   max-width: 1120px;
+   background: #f8f8f8;
+}
+@media screen and (min-width: 1120px) {
+  .container {
+    margin: 0 auto;
+    height: auto;
+  }
+}
+.header__wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content:center;
+    height: 88px;
+    margin: 0;
+    background: white;
+    border-bottom: 1px solid #d9fff5;
+  
+}
+@media screen and (min-width: 1120px){
+.header__menu__btn__delete{
+  display: none;
+}
+}
+.header__menu__btn__text{
+  font-family: "TT Lakes";
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  color: #1b1c21 !important;
+  margin-right: 10px;
+}
+.header__menu__left{
+  display: flex;
+  justify-content:center;
+  flex-grow: 1;
+  align-items: center;
 }
 
-.header__divider{
-    margin-right: 17px;
+.header__menu__right{
+  display: flex;
+  justify-content:flex-end;
+  flex-grow: 1;
+  align-items: center;
 }
-.header__repair{
-    margin-right: 20px;
+.header__menu__btn{
+  display: flex;
+  align-items: center;
 }
-.header__checkstatus{
-    margin-right: 16px;
+
+@media screen and (max-width: 1120px){
+.header__menu__btn__text{
+  display: none;
+}
 }
 button {
     border: 0;
     background: transparent;
   }
-.header__hr{
-    position: absolute;
-    left: 1.25%;
-    right: 97.5%;
-    top: 18.76%;
-    bottom: 74.54%;
 
-    background: #41F6D7;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+.main__header__text{
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    border-left: 4px solid #41f6d7;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.slide__menu {
+    overflow: hidden;
+}
+.slide__menu__items{
+  margin-right: 5px;
+  height: 40px;
+  padding: 8px 15px;
+  list-style: none;
+  display: inline-block;
+}
+@media screen and (min-width: 1119px){
+  .slide__menu__list{
+    max-width: 1120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+}
+a{
+  list-style-type: none;
+  text-decoration: none;
+}
+.link__repair{
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #b8ffec;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 
 }
-.highlight{
-    position: absolute;
-    left: 1.25%;
-    right: 97.5%;
-    top: 18.76%;
-    bottom: 74.54%;
-    
-    background: #41F6D7;
-    transform: matrix(-1, 0, 0, 1, 0, 0); 
+.slide__menu__info{
+  padding: 0 15px;
+  width: auto;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+.slide__menu__text{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+  margin: 0;
+  overflow: hidden;
+}
+.footer_button{
+  position: relative;
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  margin: 10px 0 10px 35px; 
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  text-decoration: none;
+  color: #1b1c21 !important;
+}
+.logo__footer{
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: flex;
+  justify-content: flex-end;
+  margin:auto;
+  margin-bottom: 25px;
+}
+.link:visited{
+  color:  #7E7E82;;
+}
+a:visited{
+  color:  #7E7E82;;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-@font-face {
-    font-family: 'TT Lakes';
-    src: url('/sitenew/fonts/TTLakes-Bold.woff');
-    src: local('TT Lakes Italic'), local('TTLakes-Italic'),
-        url('TTLakes-Italic.eot?#iefix') format('embedded-opentype'),
-        url('TTLakes-Italic.woff') format('woff'),
-        url('TTLakes-Italic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TT Lakes';
-    src: url('/sitenew/fonts/TTLakes-Bold.woff');
-    src: local('TT Lakes DemiBold Italic'), local('TTLakes-DemiBoldItalic'),
-        url('TTLakes-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('TTLakes-DemiBoldItalic.woff') format('woff'),
-        url('TTLakes-DemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'TT Lakes';
-    src: url('TTLakes-ExtraBoldItalic.eot');
-    src: local('TT Lakes ExtraBold Italic'), local('TTLakes-ExtraBoldItalic'),
-        url('TTLakes-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('TTLakes-ExtraBoldItalic.woff') format('woff'),
-        url('TTLakes-ExtraBoldItalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}

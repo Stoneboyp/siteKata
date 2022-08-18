@@ -6,51 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site.kata</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section class="container">
     <header>
-        <div class="wrapper">
             <div class="header__wrapper"> 
-                <nav>
-                    <a class="header__menu">
-                        <button class="header__menu-link"><img src="img/burger.svg" alt="" class="header__menu-pic"></button>
-                            <a class="header__group">
-                                <button class="header__group-link"><img src="img/Group.svg" alt="" class="header__group-pic"></button>
-                                    <a class="header__divider">
-                                         <button class="header__menu-divider"><img src="img/divider.svg" alt="" class="header__divider-pic"></button>
-                    <a class="header__repair">
-                        <button class="header__menu-repair"><img src="img/repair.svg" alt="" class="header__repair-pic"></button>
-                        <a class="header__checkstatus">
-                            <button class="header__menu-checkstatus"><img src="img/checkstatus.svg" alt="" class="header__checkstatus-pic"></button>
-            </div>
-        </div>
-                </nav>
-                <div class="header__hr">
-                    
-                </div>            
+                <div class="header__menu__left">
+                        <button class="header__menu__btn"><img src="img/burger.svg" alt="" class="header__menu-pic"></button>
+                            <div class="header__group">
+                                <button class="header__menu__btn"><img src="img/Group.svg" alt="" class="header__group-pic"></button>          
+                </div>                
+                <div class="header__menu__right">
+                    <div class="header__menu__btn__delete">
+                        <button><img src="img/call.svg" alt="" class="header__call__pic"></button>
+                        <button><img src="img/chat.svg" alt="" class="header__chat__pic"></button>
+                        <button><img src="img/profile.svg" alt="" class="header__profile__pic"></button>         
+                    </div>
+                        <button class="header__menu__btn"><img src="img/divider.svg" alt="" class="header__divider-pic"></button>
+                        <div class="header__menu__btn__item">
+                        <button class="header__menu__btn">
+                            <a href="#" class="header__menu__btn__link"><p class="header__menu__btn__text">Оставить заявку</p></a>
+                            <img src="img/repair.svg" alt="" class="header__repair-pic">
+                        </button>
+                        </div>
+                        <div class="header__menu__btn__item">
+                            <button class="header__menu__btn">
+                                <a href="#" class="header__menu__btn__link"><p class="header__menu__btn__text">Статус ремонта</p></a>
+                                <img src="img/checkstatus.svg" alt="" class="header__checkstatus-pic">
+                            </button>
+                        </div>
+                </div>
+            </div>      
     </header>
     <main>
-        <div class="main__header__text">
-            <h1>Услуги и сервисы</h1>
+        <div class="main__header__item">
+            <h1 class ="main__header__text">Услуги и сервисы</h1>  
         </div>
-
-        <div class="repair__text">
-            Ремонтируемые устройства
-        </div>
-            <div class="bio__info">
-                <h3>Мы являемся авторизованным<br>сервисным центром по ремонту техники<br>Dell. Только у нас вы можете<br>отремонтировать свой ноутбук Dell с<br>официальной гарантией производителя.</h3>
+            <div class="slide__menu">
+                    <ul class="slide__menu__list">
+                    <li class="slide__menu__items">
+                        <a href="#" class="link__repair link">Ремонтируемые устройства</a>
+                    </li>
+                    <li class="slide__menu__items">
+                        <a href="#" class="link__addInfo link">Дополнительные услуги</a>
+                    </li>
+                    <li class="slide__menu__items">
+                        <a href="#" class="link__price link">Цены на услуги</a>
+                    </li>
+                    <li class="slide__menu__items">
+                        <a href="#" class="link_addres link">Адреса сервисных центров</a>
+                    </li>
+                    <li class="slide__menu__items">
+                        <a href="#" class="link__anchor link">Специальные цены</a>
+                    </li>
+                    <li class="slide__menu__items">
+                        <a href="#" class="link__anchor link">Взносы</a>
+                    </li>
+                    </ul>
+                    
             </div>
+                    <div class="slide__menu__info">
+                        <p class="slide__menu__text">
+                        Мы являемся авторизованным сервисным центром по ремонту техники 
+                        Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                        официальной гарантией производителя.
+                        <span class="slide__menu__text__main">
+                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+                        </span>
+                        <span class="slide__menu__text__footer">
+                        ,что подтверждает большре количество постоянных клиентов.Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                        </span>
+                    </p>
+                    </div>
     </main>    
 <footer>    
-    <div class="textto__Footer">
-        <h2>Читать далее</h2>
+    <div class="textto__footer">
+        <button class="footer_button"><img src="img/icon.svg" alt="" class="footer__button__img"><a href="#" class="footer__button__link"> Читать далее</button></a>
+        
+    </div>
+    <div class="logo__footer">
+        <img src="img/repair.png" alt="" class="logo_footer_pic">
     </div>
 </footer>
 
 
 
 
-
+</section>
 </body>
 </html>
