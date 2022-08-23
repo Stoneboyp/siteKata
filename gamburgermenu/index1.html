@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MENU</title>
-    <link rel="stylesheet" href="styles1.css" class="stylesheet">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="styles1.css" class="stylesheet" />
 </head>
 
 <body>
     <div id="menuToggle">
-        <input type="checkbox">
-        <span></span>
-        <span></span>
-        <span></span>
+        <input type="radio" id="radioButtonOn">
+        <input type="radio" id="radioButtonOff">
+
         <ul id="menu">
             <li>Ремонт техники</li>
             <li><a href="#">Услуги и сервисы</a></li>
@@ -25,8 +25,18 @@
             <li><a href="#">Наши сервисные центры</a></li>
             <li><a href="#">Контакты</a></li>
         </ul>
-    </div>
-
+        <div class="menu__button">
+            <button class="menu__button__off">
+                <img src="/img/burger.svg" class="btn-lnk__img"></img>
+            </button>
+            <div class="menu__button-active">
+                <button class="menu__button__off">
+                    <img src="/img/burgeroff.svg" class="btn-lnk__img-active"></img>
+                </button>
+                <img src="/img/Group.svg"></img>
+                <img src="/img/search.svg"></img>
+            </div>
+        </div>
 </body>
 
 </html>
