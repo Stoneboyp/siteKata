@@ -1,49 +1,46 @@
-
 @font-face {
-    font-family: "TT Lakes";
-    src: url("fonts/TTLakes-Regular.eot");
-    src: local("TT Lakes Regular"), local("TTLakes-Regular"),
-      url("fonts/TTLakes-Regular.eot?#iefix")
-        format("embedded-opentype"),
-      url("fonts/TTLakes-Regular.woff") format("woff"),
-      url("fonts/TTLakes-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "TT Lakes";
+  src: url("fonts/TTLakes-Regular.eot");
+  src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+    url("fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/TTLakes-Regular.woff") format("woff"),
+    url("fonts/TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: "TT Lakes";
-    src: url("fonts/TTLakes-Bold.eot");
-    src: local("TT Lakes Bold"), local("TTLakes-Bold"),
-      url("../fonts/TTLakes-Bold.eot") format("embedded-opentype"),
-      url("../fonts/TTLakes-Bold.woff") format("woff"),
-      url("../fonts/TTLakes-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
-  }
+  font-family: "TT Lakes";
+  src: url("fonts/TTLakes-Bold.eot");
+  src: local("TT Lakes Bold"), local("TTLakes-Bold"),
+    url("../fonts/TTLakes-Bold.eot") format("embedded-opentype"),
+    url("../fonts/TTLakes-Bold.woff") format("woff"),
+    url("../fonts/TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 @font-face {
-    font-family: "TT Lakes";
-    src: url("fonts/TTLakes-Medium.eot");
-    src: local("TT Lakes Medium"), local("TTLakes-Medium"),
-      url("../fonts/TTLakes-Medium.eot") format("embedded-opentype"),
-      url("../fonts/TTLakes-Medium.woff") format("woff"),
-      url("../fonts/TTLakes-Medium.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-  }
-
+  font-family: "TT Lakes";
+  src: url("fonts/TTLakes-Medium.eot");
+  src: local("TT Lakes Medium"), local("TTLakes-Medium"),
+    url("../fonts/TTLakes-Medium.eot") format("embedded-opentype"),
+    url("../fonts/TTLakes-Medium.woff") format("woff"),
+    url("../fonts/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
 
 body {
-    font-family:"TT Lakes";
-    color: #1b1c21;
-    background: #f2f2f2;
-    margin: 0;
+  font-family: "TT Lakes";
+  color: #1b1c21;
+  background: #f2f2f2;
+  margin: 0;
 }
-.container{
-   height: 100%;
-   width: 100%;
-   min-width:320px;
-   max-width: 1120px;
-   background: #f8f8f8;
+.container {
+  height: 100%;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1120px;
+  background: #f8f8f8;
 }
 @media screen and (min-width: 1120px) {
   .container {
@@ -51,25 +48,24 @@ body {
     height: auto;
   }
 }
-.header__wrapper{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content:center;
-    height: 88px;
-    margin: 0;
-    background: white;
-    border-bottom: 1px solid #d9fff5;
-  
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: center;
+  height: 88px;
+  margin: 0;
+  background: white;
+  border-bottom: 1px solid #d9fff5;
 }
-@media screen and (min-width: 1120px){
-.header__menu__btn__delete{
-  display: none;
+@media screen and (min-width: 1120px) {
+  .header__menu__btn__delete {
+    display: none;
+  }
 }
-}
-.header__menu__btn__text{
+.header__menu__btn__text {
   font-family: "TT Lakes";
   display: flex;
   font-size: 16px;
@@ -80,49 +76,49 @@ body {
   color: #1b1c21 !important;
   margin-right: 10px;
 }
-.header__menu__left{
+.header__menu__left {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-grow: 1;
   align-items: center;
 }
 
-.header__menu__right{
+.header__menu__right {
   display: flex;
-  justify-content:flex-end;
+  justify-content: flex-end;
   flex-grow: 1;
   align-items: center;
 }
-.header__menu__btn{
+.header__menu__btn {
   display: flex;
   align-items: center;
 }
 
-@media screen and (max-width: 1120px){
-.header__menu__btn__text{
-  display: none;
-}
+@media screen and (max-width: 1120px) {
+  .header__menu__btn__text {
+    display: none;
+  }
 }
 button {
-    border: 0;
-    background: transparent;
-  }
+  border: 0;
+  background: transparent;
+}
 
-.main__header__text{
-    font-size: 28px;
-    line-height: 40px;
-    letter-spacing: -0.6000000238418579px;
-    text-align: left;
-    border-left: 4px solid #41f6d7;
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid transparent;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+.main__header__text {
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: -0.6000000238418579px;
+  text-align: left;
+  border-left: 4px solid #41f6d7;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .slide__menu {
-    overflow: hidden;
+  overflow: hidden;
 }
-.slide__menu__items{
+.slide__menu__items {
   margin-right: 5px;
   height: 40px;
   padding: 8px 15px;
@@ -130,8 +126,8 @@ button {
   display: inline-block;
   overflow: hidden;
 }
-@media screen and (min-width: 1119px){
-  .slide__menu__list{
+@media screen and (min-width: 1119px) {
+  .slide__menu__list {
     max-width: 1120px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -141,25 +137,24 @@ button {
     overflow: hidden;
   }
 }
-a{
+a {
   list-style-type: none;
   text-decoration: none;
 }
-.link__repair{
+.link__repair {
   background: white;
   border-radius: 5px;
   border: 2px solid #b8ffec;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-
 }
-.slide__menu__info{
+.slide__menu__info {
   padding: 0 15px;
   width: auto;
   margin-bottom: 25px;
   overflow: hidden;
 }
-.slide__menu__text{
+.slide__menu__text {
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.2px;
@@ -167,13 +162,13 @@ a{
   margin: 0;
   overflow: hidden;
 }
-.footer_button{
+.footer_button {
   position: relative;
   padding: 0;
   border: none;
   font: inherit;
   background-color: transparent;
-  margin: 10px 0 10px 35px; 
+  margin: 10px 0 10px 35px;
   display: block;
   font-size: 16px;
   line-height: 24px;
@@ -182,21 +177,17 @@ a{
   text-decoration: none;
   color: #1b1c21 !important;
 }
-.logo__footer{
+.logo__footer {
   box-sizing: border-box;
   border-radius: 2px;
   display: flex;
   justify-content: flex-end;
-  margin:auto;
+  margin: auto;
   margin-bottom: 25px;
 }
-.link:visited{
-  color:  #7E7E82;;
+.link:visited {
+  color: #7e7e82;
 }
-a:visited{
-  color:  #7E7E82;;
+a:visited {
+  color: #7e7e82;
 }
-
-
-
-
