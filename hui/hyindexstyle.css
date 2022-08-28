@@ -69,7 +69,7 @@ input:checked ~ .Lexa2predok .olig .rodjer {
   transition: opacity 1s;
   transition-delay: 5s;
 } */
-.hyi1 {
+/* .hyi1 {
   width: 100px;
   height: 100px;
   background-color: red;
@@ -81,4 +81,69 @@ input:checked ~ .Lexa2predok .olig .rodjer {
   width: 50px;
   height: 50px;
   background-color: darkkhaki;
+} */
+@keyframes ball-running {
+  0% {
+    transform: scale(0.5);
+    transform: scale(0.7);
+  }
+  50% {
+    filter: blur(10px);
+  }
+  100% {
+    box-shadow: inset 10 0 0 10 rgba(0, 0, 0, 0);
+    box-shadow: inset 10 0 0 10 rgba(0, 0, 0, 0);
+    transform: scale(1) rotateX(-180deg);
+    transform: scale(1) rotateX(-180deg);
+  }
+}
+.ball__container:hover {
+}
+.ball__container {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  animation-name: ball-running;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  bottom: 40%;
+  right: 50%;
+}
+.redball {
+  position: relative;
+  top: 10px;
+  width: 150px;
+  height: 150px;
+  border: 10px;
+  background-color: red;
+  border-radius: 25%;
+}
+.greenball {
+  position: relative;
+  top: 20px;
+  width: 130px;
+  height: 130px;
+  border: 10px;
+  background-color: green;
+  border-radius: 25%;
+}
+.blueball {
+  position: relative;
+  top: 30px;
+  width: 110px;
+  height: 110px;
+  border: 10px;
+  background-color: blue;
+  border-radius: 25%;
+}
+.whiteball {
+  position: relative;
+  top: 40px;
+  width: 90px;
+  height: 90px;
+  border: 10px;
+  background-color: wheat;
+  border-radius: 25%;
 }
