@@ -93,8 +93,8 @@ input:checked ~ .Lexa2predok .olig .rodjer {
   100% {
     box-shadow: inset 10 0 0 10 rgba(0, 0, 0, 0);
     box-shadow: inset 10 0 0 10 rgba(0, 0, 0, 0);
-    transform: scale(1) rotateX(-180deg);
-    transform: scale(1) rotateX(-180deg);
+    transform: scale(1) rotateX(-360deg);
+    transform: rotateX(-320deg);
   }
 }
 .ball__container:hover {
