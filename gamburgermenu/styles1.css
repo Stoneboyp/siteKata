@@ -26,6 +26,11 @@ a:visited {
   height: 100%;
   z-index: 1;
 }
+.Drop__menu {
+  top: 0;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
+    16px 0px 52px rgba(14, 24, 80, 0.2);
+}
 .menuToggle_text {
   top: 100px;
   padding-left: 10px;
