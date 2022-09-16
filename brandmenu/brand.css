@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../fonts/TTLakes-Regular.eot");
+  src: local("TT Lakes Regular"), local("TTLakes-Regular"),
+    url("../fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TTLakes-Regular.woff") format("woff"),
+    url("../fonts/TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../fonts/TTLakes-Bold.eot");
+  src: local("TT Lakes Bold"), local("TTLakes-Bold"),
+    url("../fonts/TTLakes-Bold.eot") format("embedded-opentype"),
+    url("../fonts/TTLakes-Bold.woff") format("woff"),
+    url("../fonts/TTLakes-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("../fonts/TTLakes-Medium.eot");
+  src: local("TT Lakes Medium"), local("TTLakes-Medium"),
+    url("../fonts/TTLakes-Medium.eot") format("embedded-opentype"),
+    url("../fonts/TTLakes-Medium.woff") format("woff"),
+    url("../fonts/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+}
+.swiper {
+}
+
+button {
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
+}
+.img-lenovo {
+  box-sizing: border-box;
+  margin: 15px 0;
+
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+.img-lenovo-go:not(.img-bosh-go) {
+  padding-left: 52px;
+}
+.img-bosh-go {
+  padding-left: 33px;
+}
+.img-hp-go {
+  padding-right: 63px;
+}
+.img-apple-go {
+  padding-right: 50px;
+}
+.brand__menu {
+  width: 1120px;
+  height: 398px;
+  padding-left: 55px;
+  padding-top: 25px;
+}
+.brand__menu__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.brand__menu__text {
+  font-family: "TT Lakes";
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  color: #7e7e82;
+}
+.swiper {
+  width: 900px;
+  height: 500px;
+}
+.brand__footer__button-more,
+.brand__footer__button-hide {
+  font-family: "TT Lakes";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+}
+.brand__footer__text-img {
+  transform: rotate(180deg);
+}
+@media screen and (max-width: 1120px) {
+  .brand__menu__image-bottom {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .brand__menu__image-center {
+    display: none;
+  }
+}
