@@ -10,69 +10,71 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   </head>
   <body>
-    <div class="sidebar-brands">
-      <div class="sidebar-brands__wrapper">
+    <div class="sidebar-brands ">
+      <div class="sidebar-brands__wrapper swiper-container">
         <div class="sidebar-brands__line"></div>
         <div class="sidebar-brands__text">
           <h1>ремонт техники различных брендов</h1>
         </div>
-        <div class="sidebar-brands__block__wrapper">
-          <div class="sidebar-brands__block_first">           
-              <  class="sidebar-brands__block_first-border">
+        <div class="sidebar-brands__block__wrapper swiper-wrapper">
+          <div class="sidebar-brands__block_first swiper-slide">           
+              <div class="sidebar-brands__block_first-border">
                 <img src="brand_img/lenovo.svg" alt="" class="lenovo__img" />
-                <img src="brand_img/go.svg" alt="" class="lenovo__img-go go" />
-              </>
+                <button><img src="brand_img/go.svg" alt="" class="lenovo__img-go go" /></button>
+              </div>
               <div class="sidebar-brands__block_first-border">
               <img src="brand_img/samsung.svg" alt="" class="samsung__img" />
-              <img src="brand_img/go.svg" alt="" class="samsung__img-go go" />
+              <button><img src="brand_img/go.svg" alt="" class="samsung__img-go go" /></button>
               </div>
               <div class="sidebar-brands__block_first-border">
                 <img src="brand_img/apple.svg" alt="" class="apple__img" />
-                <img src="brand_img/go.svg" alt="" class="apple__img-go go" />
+                <button><img src="brand_img/go.svg" alt="" class="apple__img-go go" /></button>
               </div>
-              <div class="sidebar-brands__block_first-border">
+              <div class="sidebar-brands__block_first-border view__block">
                 <img src="brand_img/view.svg" alt="" class="view__img" />
-                <img src="brand_img/go.svg" alt="" class="view__img-go go" />
+                <button><img src="brand_img/go.svg" alt="" class="view__img-go go" /></button>
               </div>
           </div>
-          <div class="sidebar-brands__block_second">
+          <div class="sidebar-brands__block_second swiper-slide">
               <div class="sidebar-brands__block_second-border">
                 <img src="brand_img/bosh.svg" alt="" class="bosh__img" />
-                <img src="brand_img/go.svg" alt="" class="bosh__img-go go" />
+                <button><img src="brand_img/go.svg" alt="" class="bosh__img-go go" /></button>
               </div>
               <div class="sidebar-brands__block_second-border">
                 <img src="brand_img/hp.svg" alt="" class="hp__img" />
-                <img src="brand_img/go.svg" alt="" class="hp__img-go go" />
+                <button><img src="brand_img/go.svg" alt="" class="hp__img-go go" /></button>
               </div>
                 <div class="sidebar-brands__block_second-border">
                   <img src="brand_img/acer.svg" alt="" class="acer__img" />
-                  <img src="brand_img/go.svg" alt="" class="samsung__img-go go" />
+                  <button><img src="brand_img/go.svg" alt="" class="samsung__img-go go" /></button>
               </div>
               <div class="sidebar-brands__block_second-border">
                 <img src="brand_img/sony.svg" alt="" class="sony__img" />
-                <img src="brand_img/go.svg" alt="" class="sony__img-go go" />
+                <button><img src="brand_img/go.svg" alt="" class="sony__img-go go" /></button>
               </div>
           </div>
-          <div class="sidebar-brands__block_third">
+          <div id="hidden">
+            <div class="sidebar-brands__block_third swiper-slide">
               <div class="sidebar-brands__block_third-border">
                 <img src="brand_img/lenovo.svg" alt="" class="lenovo__img" />
-                <img src="brand_img/go.svg" alt="" class="lenovo__img-go go" />
+                <button><img src="brand_img/go.svg" alt="" class="lenovo__img-go go" /></button>
               </div>
               <div class="sidebar-brands__block_third-border">
                 <img src="brand_img/samsung.svg" alt="" class="samsung__img" />
-                <img src="brand_img/go.svg" alt="" class="samsung__img-go go" />
+                <button><img src="brand_img/go.svg" alt="" class="samsung__img-go go" /></button>
               </div>
               <div class="sidebar-brands__block_third-border">
                 <img src="brand_img/apple.svg" alt="" class="apple__img" />
-                <img src="brand_img/go.svg" alt="" class="apple__img-go go" />
+                <button><img src="brand_img/go.svg" alt="" class="apple__img-go go" /></button>
               </div>
+            </div>
           </div>
           
           </div>
         </div>
         <div class="sidebar-brands__footer">
           <div class="sidebar-brands__footer-text">
-            <button class="sidebar-brands__footer_button">
+            <button onclick="myFunction()" class="sidebar-brands__footer_button">
               <img src="brand_img/icon.svg" />Скрыть
             </button>
           </div>

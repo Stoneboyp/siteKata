@@ -36,16 +36,7 @@ button {
   border: 0;
   background: transparent;
 }
-@media screen and (max-width: 1120px) {
-  .brand__menu__image-bottom {
-    display: none;
-  }
-}
-@media screen and (max-width: 768px) {
-  .brand__menu__image-center {
-    display: none;
-  }
-}
+
 .sidebar-brands__line {
   height: 1px;
   background: #d9fff5;
@@ -55,6 +46,7 @@ button {
   height: 398px;
   background-color: #f8f8f8;
   position: relative;
+  overflow: hidden;
 }
 .sidebar-brands__text,
 .sidebar-brands__footer_button {
@@ -121,4 +113,10 @@ button {
 }
 img {
   padding: 0 15px;
+}
+
+/* Swiper */
+.swiper {
+  width: 1121px;
+  height: 412px;
 }
