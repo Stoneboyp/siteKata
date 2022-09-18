@@ -1,12 +1,17 @@
 function myFunction() {
+  let imgRotate = document.querySelector(".sidebar-brands__footer_button-img");
+  const btn = document.querySelector(".sidebar-brands__footer_button");
   let x = document.getElementById("hidden");
   if (x.style.display === "none") {
     x.style.display = "block";
+    btn.textContent = "Скрыть";
+    imgRotate.style.transform = "rotate(0deg)";
   } else {
     x.style.display = "none";
+    btn.textContent = "Показать всё";
+    imgRotate.style.transform = "rotate(180deg)";
   }
 }
-
 let init = false;
 function swiperCard() {
   if (window.innerWidth <= 768) {

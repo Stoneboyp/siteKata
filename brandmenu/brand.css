@@ -94,11 +94,9 @@ button {
   line-height: 24px;
   letter-spacing: -0.2px;
   color: #1b1c21;
-  position: absolute;
-  bottom: 14px;
-  height: 24px;
-  top: 374px;
+  padding-top: 40px;
 }
+
 .sidebar-brands__block_first-border,
 .sidebar-brands__block_second-border,
 .sidebar-brands__block_third-border {
