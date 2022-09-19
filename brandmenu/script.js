@@ -1,5 +1,5 @@
 function myFunction() {
-  let imgRotate = document.querySelector(".sidebar-brands__footer_button-img");
+  let imgRotate = document.querySelector(".sidebar-brands__footer-text__img");
   const btn = document.querySelector(".sidebar-brands__footer_button");
   let x = document.getElementById("hidden");
   if (x.style.display === "none") {

@@ -112,7 +112,10 @@ button {
 img {
   padding: 0 15px;
 }
-
+.sidebar-brands__footer-text__img {
+  position: relative;
+  left: 40px;
+}
 /* Swiper */
 .swiper {
   width: 1121px;
