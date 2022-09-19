@@ -14,17 +14,18 @@ function myFunction() {
 }
 let init = false;
 function swiperCard() {
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 600) {
     if (!init) {
       init = true;
       let swiper = new Swiper(".swiper-container", {
         direction: "horizontal",
-        slidesPerView: "auto",
         centeredSlides: true,
-        spaceBetween: 32,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
+          type: "bullets",
+          dynamicBullets: true,
+          dynamicMainBullets: 4,
         },
       });
     }
