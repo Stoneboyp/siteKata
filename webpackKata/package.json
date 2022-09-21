@@ -1,14 +1,17 @@
 {
-  "name": "kata-app",
+  "name": "kata-fe-16",
   "version": "1.0.0",
-  "description": "webpack app",
+  "description": "My first webpack app",
   "private": true,
   "scripts": {
     "prod": "webpack --mode production",
     "dev": "webpack --mode development",
     "ds": "webpack-dev-server --mode development --open"
   },
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stoneboyp/siteKata.git"
+  },
   "keywords": [
     "js",
     "scss",
@@ -16,8 +19,10 @@
   ],
   "author": "StoneboyP",
   "license": "ISC",
-  
-  "homepage": "https://github.com/Stoneboyp/siteKata",
+  "bugs": {
+    "url": "https://github.com/Stoneboyp/siteKata/issues"
+  },
+  "homepage": "https://github.com/Stoneboyp/siteKata#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
